@@ -365,4 +365,5 @@ def update_linked(selectedData, clickData, year, metric):
 # Run
 # -----------------------------
 if __name__ == "__main__":
-    app.run_server(debug=True, host="127.0.0.1", port=8050)
+    app.run(host="127.0.0.1", port=8050, debug=True)
+
